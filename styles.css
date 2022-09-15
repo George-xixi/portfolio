@@ -1,3 +1,24 @@
+* {
+  font-family:Arial, Helvetica, sans-serif
+}
+
 h1{
   color:red;
+}
+
+h3 {
+  color:rgb(133, 128, 74)
+}
+
+.text-background {
+background-color: grey;
+}
+
+.top-photos {
+  height: 300px;
+  width:auto
+}
+
+#underline {
+  font-size: 20px;
 }
