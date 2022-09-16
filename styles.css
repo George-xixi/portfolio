@@ -1,106 +1,78 @@
 * {
-  font-family:Arial, Helvetica, sans-serif
+  font-family:Arial, Helvetica, sans-serif;
 }
 * {
-  background-color: #a8b6b6;
+  background-color: #7a8b9e;
 }
 h1{
-  color:bisque;
+  color: bisque;
   position: relative;
   margin-top:150px;
-  left: 700px;
+  text-align: center;
   font-size: 150px;
 }
 
-h1::after {
-  content: "";
-  background-color:bisque;
-  height: 65px;
-  left: 50px;
-  width: 200%;
-  z-index: -1;
+#img-container {
+  display: block;
+  height: 300px;
+  width: 300px;
+  border: 20px solid bisque;
+  margin: 20px;
 }
 
-h1::before {
-  content: "";
-  background-color:bisque;
-  height: 65px;
-  left: 0px;
-  width: 200%;
-  z-index: -1;
+#img-container img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 4px
 }
+
+
+#cap-container {
+  height:min-content;
+  width: 300px;
+  text-align: left;
+  margin-top: -20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: bisque;
+}
+
+
 
 h3 {
   color: bisque;
 }
 
 
-#img-container {
-  height: 300px;
-  width: 300px;
-  border: 20px solid bisque;
-  margin: 20px;
-}
-#img-container img {
-  max-width: 100%;
-  max-height: 100%;
-  display: block;
-  margin: 4px
-}
-
-#cap-container {
-  height:min-content;
-  width: 300px;
-
-  border-left: 20px solid bisque;
-  margin-top: -20px;
-  margin-left: 20px;
-  color:bisque
-
-
-}
-
-#denim-img-all {
- position:absolute;
- top: 30px;
-}
-
-#tea-img-all {
-  position:absolute;
-  top: 30px;
-  right: 0px;
-  
-}
 
 a {
   background-color: bisque;
   text-decoration: none;
   border: 15px;
-  padding: 15px;
-  position: relative;
-  right: 660px;
-  margin-right: 50px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+#contact-link {
+  text-align: center;
+}
+
+#projects-link {
+  text-align: center;
 }
 
 a:hover{
 background-color: rgb(255, 245, 196);
 text-decoration: underline;
+text-transform: capitalize;
 }
 
-#dividing-line {
-  position:relative;
-  top: 200px;
-
-
-}
 
 main {
-  position:relative;
-  top: 400px;
 
-}
+  color:#ffffff;
 
-footer {
-  position: relative;
-  top: 600px;
 }
