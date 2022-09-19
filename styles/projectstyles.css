@@ -16,3 +16,17 @@ h2 {
   color: bisque;
   text-align: center;
 }
+
+.div-element {
+  height: 100px;
+  width: 100px;
+  color: white;
+  background-color: red;
+}
+.span-element {
+  height: 100px;
+  width: 100px;
+  display:inline-block;
+  color: white;
+  background-color: blue;
+}
