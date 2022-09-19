@@ -4,17 +4,58 @@
 * {
   background-color: #7a8b9e;
 }
-h1{
-  color: bisque;
-  position: relative;
-  margin-top:150px;
-  text-align: center;
-  font-size: 150px;
+header {
+  background-color: bisque;
+  margin: -10px;
 }
+h1{
+  color: #7a8b9e;
+  background-color: inherit;
+  position: relative;
+  margin: 0px 30px 0px 0px;
+  font-size: 100px;
+  display: inline-block;
+  left: 1%;
+
+
+}
+
+nav{
+  position: absolute;
+  background-color: inherit;
+  display: inline-block;
+  right: 1%;
+  margin-top: 35px;
+  
+ 
+}
+a {
+  background-color: bisque;
+  color:#7a8b9e;
+  text-decoration: none;
+  border-radius: 0%;
+  font-size: 200%;
+  border: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+
+
+a:hover{
+background-color: #7a8b9e;
+text-decoration: none;
+color: bisque;
+}
+
 
 h2 {
   color: bisque;
   text-align: center;
+  font-size: 60px;
 }
 
 .div-element {

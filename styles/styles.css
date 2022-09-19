@@ -15,8 +15,9 @@ h1{
   position: relative;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 5px;
+  margin-left: 0px;
   font-size: 100px;
+  left: 0.65%;
   display: inline-block;
 
 }
@@ -43,15 +44,7 @@ a {
 
 }
 
-#contact-link {
-  text-align: center;
 
-}
-
-#projects-link {
-  text-align: center;
-
-}
 
 a:hover{
 background-color: #7a8b9e;
