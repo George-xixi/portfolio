@@ -1,31 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo');
+
 * {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Archivo, Arial, Helvetica, sans-serif;
 }
 
 :root {
   --Colour1: #ffffff;
-  --Colour3: #043927;
+  --Colour3: #252529;
   --Colour4: #ffffff86;
 
-
-}
-* {
-  background-color: var(--Colour1);
 }
 
-header {
+body {
+  margin: 0;
+}
+
+.top-bar{
   background-color: var(--Colour3);
-  margin: -10px;
+  margin: 0;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  border-bottom: 15px solid var(--Colour4)
+
 }
+
 h1{
   color: var(--Colour1);
-  background-color: inherit;
+  background-color: var(--Colour3);
   position: relative;
   margin-top: 0px;
-  margin-bottom: 7px;
-  margin-left: 0px;
+  margin-left: 10px;
+  margin-bottom: 10px;
   font-size: 6rem;
-  left: 0.65%;
   display: inline-block;
 
 }
@@ -34,9 +42,8 @@ nav{
   background-color: inherit;
   display: inline-block;
   right: 1%;
-  margin-top: 35px;
-  
- 
+  margin-top: 30px;
+  font-size: 1.5rem;
 }
 a {
   background-color: var(--Colour3);
@@ -60,48 +67,72 @@ text-decoration: none;
 color: var(--Colour3);
 
 }
-figure {
- 
-  display:inline-block;
-  margin-top: 100px;
 
-
+main {
+  margin-top: 20rem;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  width: 1;
+  text-align: justify;
+  
 }
 
 .img-container {
-  height: 300px;
-  width: 300px;
+  max-width: 30rem;
+  min-width: 15rem;
+  height: 30rem;
+  align-self: center;
   border: 20px solid var(--Colour3);
   margin: 20px;
   border-radius: 1.5%;
 }
 
-.img-container img {
-  max-width: 100%;
-  max-height: 100%;
-  margin: 4px
+.img-container img{
+  max-width: 30rem;
+
 }
-
-
 .cap-container {
-  height:min-content;
-  width: 300px;
-  text-align: left;
-  margin-top: -20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  max-width: 35rem;
+  font-size: 3rem;
+  text-align: center;
   color: var(--Colour3);
+  align-self: center;
 }
 
 
 
 h3 {
-  color: var(--Colour3);
+  color: var(--Colour1);
+
 }
 
+section {
+  background-color: #252529;
+  color: var(--Colour1);
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  font-size: 3rem;
+  border-top: 10px solid var(--Colour4);
+  border-radius: 0.75%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
 
-main {
+section p {
+ max-width: 70rem;
+ margin: 3rem;
+}
 
-  color: var(--Colour3);
+ul {
+  list-style: none;
+  text-align: center;
+}
 
+ol {
+  list-style: none;
+  text-align: center;
 }

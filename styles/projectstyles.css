@@ -4,9 +4,8 @@
 
 :root {
   --Colour1: #ffffff;
-  --Colour3: #043927;
+  --Colour3: #252529;
   --Colour4: #ffffff86;
-
 
 }
 * {
@@ -22,9 +21,9 @@ h1{
   background-color: inherit;
   position: relative;
   margin-top: 0px;
-  margin-bottom: 7px;
+  margin-bottom: 0px;
   margin-left: 0px;
-  font-size: 6rem;
+  font-size: 100px;
   left: 0.65%;
   display: inline-block;
 
