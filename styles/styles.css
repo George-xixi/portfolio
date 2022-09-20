@@ -1,16 +1,24 @@
 * {
   font-family:Arial, Helvetica, sans-serif;
 }
+
+:root {
+  --Colour1: #043927;
+  --Colour3: #ffffff;
+  --Colour4: #04392750;
+
+
+}
 * {
-  background-color: #7a8b9e;
+  background-color: var(--Colour1);
 }
 
 header {
-  background-color: bisque;
+  background-color: var(--Colour3);
   margin: -10px;
 }
 h1{
-  color: #7a8b9e;
+  color: var(--Colour1);
   background-color: inherit;
   position: relative;
   margin-top: 0px;
@@ -31,8 +39,8 @@ nav{
  
 }
 a {
-  background-color: bisque;
-  color:#7a8b9e;
+  background-color: var(--Colour3);
+  color:var(--Colour1);
   text-decoration: none;
   border-radius: 0%;
   font-size: 200%;
@@ -47,9 +55,9 @@ a {
 
 
 a:hover{
-background-color: #7a8b9e;
+background-color: var(--Colour4);
 text-decoration: none;
-color: bisque;
+color: var(--Colour3);
 
 }
 figure {
@@ -63,8 +71,9 @@ figure {
 .img-container {
   height: 300px;
   width: 300px;
-  border: 20px solid bisque;
+  border: 20px solid var(--Colour3);
   margin: 20px;
+  border-radius: 1.5%;
 }
 
 .img-container img {
@@ -81,18 +90,18 @@ figure {
   margin-top: -20px;
   margin-left: 20px;
   margin-bottom: 20px;
-  color: bisque;
+  color: var(--Colour3);
 }
 
 
 
 h3 {
-  color: bisque;
+  color: var(--Colour3);
 }
 
 
 main {
 
-  color:#ffffff;
+  color: var(--Colour3);
 
 }
