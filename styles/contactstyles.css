@@ -83,3 +83,68 @@ color:var(--Colour3);
   cursor: pointer;
 
 }
+main {
+  
+  margin-top: 10rem;
+ 
+}
+
+h2 {
+  text-align: center;
+  font-size: 4rem;
+ }
+form {
+  justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr 7fr 1fr;
+  grid-template-rows: repeat(4,1fr);
+  margin-top: 5rem;
+  gap: 10px;
+}
+
+.name-email {
+  grid-column-start: 2;
+  font-size: 3rem;
+  display:flex;
+  flex-wrap: wrap;
+  justify-items: center;
+}
+
+.name-email input {
+  height: 3rem;
+  width: 30rem;
+}
+
+.name-all {
+  display:flex;
+
+}
+.email-all {
+  display:flex;
+}
+.reason {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  font-size: 3rem;
+}
+.reason input {
+  width: 3rem;
+}
+
+.message {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.message label {
+  display: block;
+  font-size: 3rem;
+}
+
+textarea {
+  width: 100%;
+}
+.submit {
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
